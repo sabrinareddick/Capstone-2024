@@ -7,7 +7,10 @@
  -look at the merch (if they want to purchace they need to become a user)
  -look at the blog but cannot interact (if a resident user has their post on private then no guest or prospect can see their post)
 
- `Home Shop Page:`
+ `Home Page:`
+ -will have propert info and photos aka welcome page 
+ 
+ `Shop Page:`
  -Will have property merch like t-shirts, mugs, pool noodles ect., household goods, raffle tickets and more to be bought and delivered or pick-up option (only users will be able to purchace) 
  
  `Floor Plans Page:`

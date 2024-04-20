@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>Gwyneveres Medow Manor Estate</title>
+
+  </head>
+<body>
+    <h1 id="title">Gwyneveres Medow Manor Estate</h1>
+    <div class="nav">
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/shop.html">Shop</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/claendar.html">Calendar</a></li>
+          <li><a href="/floorPlans.html">Floor Plans</a></li>
+          <li><a href="/login.html">Log in</a></li>
+        </ul>
+    </div>
+    <div>
+        <h3>Unity in Sophistication ~ A Vision for Elevated Living</h3>
+        <p>Welcome to Gwyneveres Medow Manor Estate, where elegance meets purpose, and where the pursuit of excellence is not merely a goal but a way of life. 
+        At Gwyneveres Medow Manor Estate, we epitomize the essence of refined living and community cohesion. We stand as a beacon of exclusivity, 
+        embodying a shared commitment to fostering a profound sense of belonging and support amongst our esteemed residents. With an unwavering dedication to excellence, 
+        we endeavor to elevate not only our individual lives but also the fabric of society at large. Our ethos revolves around cultivating a culture of sophistication, 
+        where success, education, and impeccable upbringing are celebrated and esteemed. Together, we aspire to create an environment where every member thrives, where bonds are forged through mutual respect, 
+        and where our collective pursuit of betterment enriches both our lives and the world around us.</p>
+    </div>
+    <div class="slideshow-container">
+        <div class="slide fade">
+          <img id="slideImage" src="./uploads/Screenshot 2024-04-11 at 9.47.57 PM.png" >
+        </div>
+       
+        <a class="prev" onclick="plusSlides(-1)"><button type="button" class="prev">&#10094;</button></a>
+        <a class="next" onclick="plusSlides(1)"><button type="button" class="prev">&#10095;</button></a>
+    </div>
+    <div>
+        <h3>Our Mission</h3>
+        <p>Our Mission at Gwyneveres Medow Manor Estate is to curate an exceptional living experience that transcends the boundaries of luxury. 
+        Rooted in sophistication and camaraderie, we pride ourselves on fostering an atmosphere where fun, generosity, and community spirit thrive. 
+        Through a calendar brimming with fundraisers and events tailored for our esteemed members and residents, 
+        we aim to not only elevate social enjoyment but also to extend our philanthropic reach, supporting causes that resonate with our collective values. 
+        With a commitment to blending opulence with altruism, we endeavor to leave a lasting legacy of joy, unity, and meaningful impact within and beyond our gates.</p>
+    </div>
+
+</body>
+<script>
+  let currentImageIndex=0;
+  const slideImage=document.getElementById("slideImage");
+  const images=[
+    'Screenshot 2024-04-11 at 9.47.57 PM.png',
+    'Screenshot 2024-04-11 at 9.48.03 PM.png',
+    'Screenshot 2024-04-11 at 9.50.32 PM.png',
+    'Screenshot 2024-04-11 at 9.51.14 PM.png',
+    'Screenshot 2024-04-11 at 9.51.28 PM.png',
+    'Screenshot 2024-04-11 at 9.51.44 PM.png',
+    'Screenshot 2024-04-11 at 9.52.14 PM.png',
+    'Screenshot 2024-04-10 at 8.44.14 PM.png',
+    'Screenshot 2024-04-11 at 9.47.33 PM.png',
+    'Screenshot 2024-04-11 at 9.47.41 PM.png',
+    'Screenshot 2024-04-11 at 9.47.52 PM.png',
+
+  ]
+  function plusSlides(idx)
+  {
+    const newIndex = currentImageIndex+idx;
+    if(newIndex<0)
+    {
+      currentImageIndex=images.length;
+    }else if(newIndex>images.length)
+    {
+      currentImageIndex=0;
+    }
+    console.log("plusSlides:" + idx);
+    currentImageIndex = currentImageIndex + idx;
+    console.log(images[currentImageIndex]);
+    slideImage.src = "./uploads/" + images[currentImageIndex];
+  }
+</script>
+</html>

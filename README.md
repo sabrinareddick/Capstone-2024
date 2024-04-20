@@ -11,7 +11,16 @@
  -will have propert info and photos aka welcome page 
  
  `Shop Page:`
- -Will have property merch like t-shirts, mugs, pool noodles ect., household goods, raffle tickets and more to be bought and delivered or pick-up option (only users will be able to purchace) 
+ -Will have property merch like t-shirts, mugs, pool noodles ect., household goods, raffle tickets for events and more to be bought and delivered or pick-up option (only users will be able to purchace) 
+ -Section to sort products by certain characteristics (name, price, etc.)
+ -Section to Filter products by certain characteristics (category, type, maximum/minimum price, etc.)
+ -Have a persistent cart to revisit and pick up where user left off
+ -Edit my cart if user changed thier mind
+ -Change the quantity of a product in cart
+ -Remove a product from cart
+ -Check out the items in my cart, i.e., purchase the products
+ -Users can see order history to remember previously purchased items and their prices at the time of purchase
+ -Users can make product reviews this should be associated with the correct user
  
  `Floor Plans Page:`
  -will have all avalible units for sale 
@@ -31,6 +40,8 @@
  -have an active cart with memory to hold merch until a later date 
  -profile page
  -look at the blog but cannot interact (if a resident user has their post on private then no guest or prospect can see their post)
+ -Remain logged in on separate sessions
+ -View and edit user profile can update information when necessary
 
  `User (resident) capabilities`
  -purchace all merch
@@ -42,6 +53,8 @@
  -look at all availible units for leasing and put in a request to transfer units (will only need to pay app fee not admin since already a resident)
  -buy raffel tickets for give aways/funraiser property is hosting
  -profile page
+ -Remain logged in on separate sessions
+ -View and edit user profile can update information when necessary
 
  `user (staff) capabilities:`
  -handel applications
@@ -51,6 +64,8 @@
  -update store items
  -buy store items with employee discount automated 
  -profile page
+ -Remain logged in on separate sessions
+ -View and edit user profile can update information when necessary
 
  `Calendar ideas:`
  -Gigantic Marshmallow Madness Extravaganza (smores)

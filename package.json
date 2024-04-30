@@ -12,6 +12,7 @@
   "dependencies": {
     "body-parser": "^1.20.2",
     "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^16.4.5",
@@ -27,7 +28,13 @@
     "path": "^0.12.7",
     "pg": "^8.11.5",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.37.3"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.1.0",
+    "react-router-dom": "^6.23.0",
+    "sequelize": "^6.37.3",
+    "stripe": "^15.4.0",
+    "vite": "^5.2.10"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"

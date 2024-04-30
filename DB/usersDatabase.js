@@ -8,6 +8,4 @@ const usersPool = new Pool({
     port: 5432,
 });
 
-// appjedi.net@gmail.com 
-
 module.exports = usersPool;

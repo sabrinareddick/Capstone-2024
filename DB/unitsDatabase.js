@@ -9,4 +9,3 @@ const unitsPool = new Pool({
 });
 
 module.exports = unitsPool;
-

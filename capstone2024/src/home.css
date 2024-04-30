@@ -1,0 +1,74 @@
+.home-content-container {
+  padding: 20px;
+  padding-top: 100px;
+  /* padding-bottom: 0%; */
+  background-image: url('./calendar.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+  
+  #title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #443f3f;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #443f3f;;
+    margin-bottom: 20px;
+    /* text-align: center; */
+  }
+  
+  /* Slideshow styling */
+  .slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 16px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }

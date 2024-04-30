@@ -1,0 +1,106 @@
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.09); 
+  }
+
+  body{
+    color: black;
+  }
+
+  .background-photo {
+    background-image: url('blog.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blog-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .blog-container form {
+    margin-bottom: 30px;
+
+  }
+  
+  .blog-container form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .blog-container form label {
+    font-weight: bold;
+  }
+  
+  .blog-container form input[type="text"],
+  .blog-container form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .blog-container form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    /* color: white; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+  }
+  
+  .blog-container form button:hover {
+    background-color: #45a049;
+  }
+  
+  .post {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .post h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .post p {
+    margin-bottom: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+  
+  .comment {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .fade-in {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
